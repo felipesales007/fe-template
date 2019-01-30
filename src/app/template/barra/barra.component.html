@@ -1,0 +1,68 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+      <!--botão de minimizar e maximizar o menu lateral em desktop-->
+      <div class="navbar-minimize">
+          <button id="minimizeSidebar" class="btn btn-fill btn-icon" data-toggle="tooltip" data-placement="right" title="Minimizar">
+              <i class="ti-more-alt"></i>
+          </button>
+      </div>
+      <!--botão de abrir e fechar o menu lateral em mobile-->
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle">
+              <span class="sr-only">Alternar navegação</span>
+              <span class="icon-bar bar1"></span>
+              <span class="icon-bar bar2"></span>
+              <span class="icon-bar bar3"></span>
+          </button>
+          <!--página atual-->
+          <a class="navbar-brand fe-hide" href="#index">Tela</a>
+      </div>
+      <!--itens da barra-->
+      <div class="collapse navbar-collapse">
+          <!--buscador-->
+          <form class="navbar-form navbar-left navbar-search-form fe-hide" role="search">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                  <input type="text" class="form-control" placeholder="Buscar">
+              </div>
+          </form>
+          <!--itens do lado direito da barra-->
+          <ul class="nav navbar-nav navbar-right">
+              <!--item com texto-->
+              <li>
+                  <a href="#tema" class="dropdown-toggle btn-magnify fe-hide">
+                      <i class="ti-panel"></i>
+                      <p>&ensp;Tema</p>
+                  </a>
+              </li>
+              <!--item com menu dropdown-->
+              <li class="dropdown">
+                  <a href="#notificacoes" class="dropdown-toggle btn-rotate fe-hide" data-toggle="dropdown">
+                      <i class="ti-bell"></i>
+                      <span class="notification">&ensp;5</span>
+                      <p class="hidden-md hidden-lg">
+                          Notificações
+                          <b class="caret"></b>
+                      </p>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a href="#noticacao1">Notificação 1</a></li>
+                      <li><a href="#noticacao2">Notificação 2</a></li>
+                      <li><a href="#noticacao3">Notificação 3</a></li>
+                      <li><a href="#noticacao4">Notificação 4</a></li>
+                      <li><a href="#noticacao5">Notificação 5</a></li>
+                  </ul>
+              </li>
+              <!--item sem texto-->
+              <li>
+                  <a href="#configuracoes" class="btn-rotate fe-hide">
+                      <i class="ti-settings"></i>
+                      <p class="hidden-md hidden-lg">
+                          Configurações
+                      </p>
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>

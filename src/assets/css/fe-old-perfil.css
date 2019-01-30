@@ -1,0 +1,348 @@
+.fe-body-perfil::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+
+.fe-body-perfil::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
+
+.fe-body-perfil::-webkit-scrollbar-thumb:vertical,
+.fe-body-perfil::-webkit-scrollbar-thumb:horizontal {
+    background-color: #0000002a;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.fe-body-perfil::-webkit-scrollbar-thumb:vertical:hover,
+.fe-body-perfil::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #00000050;
+}
+
+.fe-letra-quadrada {
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+}
+
+.fe-letra-grande {
+    font-size: 6rem;
+    line-height: 5.5rem;
+    margin-bottom: -5px;
+    margin-left: -3px;
+}
+
+.fe-letra-media {
+    font-size: 3.5rem;
+}
+
+.fe-letra-pequena {
+    font-size: 2rem;
+}
+
+.fe-letra-secundaria {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.5rem;
+}
+
+.fe-exp-perfil {
+    display: none;
+}
+
+.fe-card-portfolio-mostrar {
+    display: none;
+}
+
+.fe-data-perfil {
+    position: absolute;
+    margin-top: -40px;
+    right: 20%;
+}
+
+.fe-emp-perfil {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.fe-ajuste-wrapper {
+    margin-top: -35px;
+    height: calc(100% - 1px) !important;
+}
+
+.fe-remove-logo {
+    height: 0 !important;
+    top: -50px;
+}
+
+.fe-remove-logo::before {
+    display: none;
+}
+
+.fe-foto {
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.fe-foto-barra {
+    width: 50px;
+    height: 50px;
+    margin: -15px 15px 0 0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.fe-menu-perfil-mobile {
+    display: none;
+}
+
+.fe-main-perfil {
+    margin-top: -95px;
+    overflow: hidden !important;
+}
+
+.fe-nav-link {
+    padding-top: 25px !important;
+    margin-bottom: -24px !important;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+li .fe-nav-link p {
+    font-size: 13px;
+}
+
+li:not(.active) .fe-nav-link p {
+    opacity: .4;
+}
+
+li:not(.active) .fe-nav-link:hover p {
+    opacity: .8;
+}
+
+.fe-hr {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 1px;
+}
+
+section.fe-perfil-section {
+    display: flex;
+    align-items: center;
+    margin: 0 20% 0 2rem !important;
+    min-height: 100vh;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+section.fe-perfil-section-contato {
+    align-items: center;
+    margin: 0 1.7rem -5.4rem 2rem !important;
+    min-height: 100vh;
+    padding-top: 60px !important;
+    margin-bottom: -71px !important;
+}
+
+section.fe-perfil-section-contato .fe-card-contato {
+    margin-left: -12px;
+}
+
+section.fe-perfil-section-contato .fe-card-mapa {
+    margin-right: -12px;
+}
+
+.fe-texto-flex {
+    display: flex;
+}
+
+.fe-texto-upper,
+.fe-texto-lower,
+.fe-texto-default {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.35rem;
+}
+
+.fe-texto-lower {
+    text-transform: lowercase;
+}
+
+.fe-texto-default {
+    text-transform: none;
+}
+
+.fe-texto-upper .fa-map-marked-alt {
+    font-size: 17px;
+    margin-right: -5px;
+}
+
+p.fe-frase-perfil {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+p.fe-frase-perfil a {
+    font-size: 1.15rem;
+    font-weight: 400;
+    opacity: .5;
+}
+
+p.fe-frase-perfil i {
+    margin-top: 2px;
+    opacity: .5;
+}
+
+.fe-social-icons {
+    margin-bottom: 5px;
+}
+
+.fe-social-icons a {
+    display: inline-block;
+    height: 2.3rem;
+    width: 2.3rem;
+    color: #868e96;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    margin-right: 1rem;
+    transition: all .5s ease-in-out;
+}
+
+[title="LinkedIn"]:hover {
+    color: #0077b5;
+}
+
+[title="GitHub"]:hover {
+    color: #24292e;
+}
+
+[title="Facebook"]:hover {
+    color: #4267b2;
+}
+
+[title="Instagram"]:hover {
+    color: #6e423a;
+}
+
+[title="YouTube"]:hover {
+    color: #ff0000;
+}
+
+[title="E-mail"]:hover {
+    color: #006dc3;
+}
+
+[title="Twitter"]:hover {
+    color: #55acee;
+}
+
+.fe-dev-icons {
+    font-size: 2.3rem;
+}
+
+.fe-cor-cinza {
+    color: #868e96;
+    transition: all .5s ease-in-out;
+}
+
+.fe-mapa {
+    height: 370px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.fe-dev-contato {
+    margin: -35px;
+}
+
+.fe-dev-contato .card-content .description {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.fe-dev-contato .card-content p a {
+    font-size: 11px;
+    padding: 0 70px 0 0;
+    opacity: .5;
+}
+
+.fe-dev-contato .card-content p i {
+    font-size: 11px;
+    margin-top: 5px;
+    opacity: .5;
+}
+
+@media only screen and (max-width: 1500px) {
+    section.fe-perfil-section {
+        margin: 0 17% 0 1.7rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .fe-menu-perfil-mobile {
+        display: block;
+        border-bottom: 1px solid #cfcfca;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    }
+    section.fe-perfil-section,
+    section.fe-perfil-section-contato {
+        margin: 0 0.1rem 0 0.1rem !important;
+    }
+    section.fe-perfil-section {
+        padding-bottom: 35px !important;
+    }
+    section.fe-perfil-section-contato .fe-card-contato,
+    section.fe-perfil-section-contato .fe-card-mapa {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .fe-letra-grande {
+        padding-top: 4rem;
+    }
+    div.alert {
+        top: 85px !important;
+    }
+    .fe-emp-perfil {
+        margin-bottom: 65px;
+    }
+    .fe-data-perfil {
+        font-size: 11px;
+        margin-top: 42px;
+        right: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .fe-texto-flex-mobile {
+        display: flex;
+    }
+    .fe-endereco-perfil-mobile {
+        margin-left: 29px;
+        transition: all .5s ease-in-out;
+    }
+    .fe-ponto-flex {
+        display: none;
+    }
+    .fe-social-icons {
+        text-align: center;
+    }
+    .fe-social-icons a {
+        margin-right: .06rem;
+    }
+}

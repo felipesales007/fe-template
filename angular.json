@@ -23,9 +23,39 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/paper-dashboard.css",
+              "src/assets/css/global.css",
+              "src/assets/css/fontawesome.css",
+              "src/assets/css/themify-icons.css",
+              "src/assets/css/demo.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.1.1.min.js",
+              "src/assets/js/jquery-ui.min.js",
+              "src/assets/js/perfect-scrollbar.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.validate.min.js",
+              "src/assets/js/es6-promise-auto.min.js",
+              "src/assets/js/moment.min.js",
+              "src/assets/js/bootstrap-datetimepicker.js",
+              "src/assets/js/bootstrap-selectpicker.js",
+              "src/assets/js/bootstrap-switch-tags.js",
+              "src/assets/js/jquery.easypiechart.min.js",
+              "src/assets/js/chartist.min.js",
+              "src/assets/js/bootstrap-notify.js",
+              "src/assets/js/sweetalert2.js",
+              "src/assets/js/jquery-jvectormap.js",
+              "src/assets/js/jquery.bootstrap.wizard.min.js",
+              "src/assets/js/bootstrap-table.js",
+              "src/assets/js/jquery.datatables.js",
+              "src/assets/js/fullcalendar.min.js",
+              "src/assets/js/nouislider.min.js",
+              "src/assets/js/paper-dashboard.js",
+              "src/assets/js/global.js",
+              "src/assets/js/demo.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+.fe-hide {
+    display: none !important;
+}
+
+.fe-hidden {
+    visibility: hidden;
+}
+
+.fe-pointer {
+    cursor: pointer;
+}
+
+.fe-left {
+    float: left;
+}
+
+.fe-right {
+    float: right;
+}
+
+.fe-center-y {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fe-center-x {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

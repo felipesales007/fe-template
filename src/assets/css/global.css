@@ -1,0 +1,23 @@
+.fe-carregando {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url('http://i.imgur.com/zAD2y29.gif') 50% 50% no-repeat white;
+}
+
+.fe-carregado {
+    display: none;
+}
+
+.fe-zoom-out {
+    animation: zoom-out 2s;
+}
+
+@keyframes zoom-out {
+    0% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
