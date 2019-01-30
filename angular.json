@@ -54,6 +54,7 @@
               "src/assets/js/nouislider.min.js",
               "src/assets/js/paper-dashboard.js",
               "src/assets/js/global.js",
+              "src/assets/js/modals.js",
               "src/assets/js/demo.js"
             ]
           },

@@ -1,4 +1,4 @@
-perfil = {
+template = {
     modal: function(type) {
         if (type == "rodape-dev-contato") {
             swal({
@@ -6,13 +6,13 @@ perfil = {
                 <div class="card-user fe-dev-contato">
                     <!-- foto -->
                     <div class="image">
-                        <div class="fe-background-rodape"></div>
+                        <img src="https://img.elo7.com.br/product/zoom/FBCE34/adesivo-paisagem-praia-decorando-com-adesivos.jpg">
                     </div>
                     <!-- corpo -->
                     <div class="card-content">
                         <!-- nome -->
                         <div class="author">
-                            <img class="avatar border-white" src="../../assets/img/perfil/usuario/felipe.png">
+                            <img class="avatar border-white" src="https://avatars2.githubusercontent.com/u/24996736?s=400&v=4">
                             <p class="card-title">
                                 Felipe Sales
                                 <br>
@@ -23,20 +23,7 @@ perfil = {
                         <!-- frase -->
                         <p class="description text-center">
                             Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.
-                            <p>
-                                <a href="#" target="_blank" class="fe-cor-tema fe-right">- Thales Valentim</a>
-                                <i class="far fa-edit fe-cor-tema fe-right"></i>&ensp;
-                            </p>
                         </p>
-                        <!-- visualizar perfil -->
-                        <div>
-                            <a href="#" class="btn btn-wd btn-info">
-                                <span class="btn-label">
-                                    <i class="ti-search"></i>
-                                </span>
-                                visualizar perfil
-                            </a>
-                        </div>
                         <br>
                     </div>
                     <hr>

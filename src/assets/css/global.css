@@ -9,8 +9,80 @@
     display: none;
 }
 
+.fe-cor-texto {
+    color: #66615B;
+}
+
 .fe-zoom-out {
     animation: zoom-out 2s;
+}
+
+.fe-dev-contato {
+    margin: -35px;
+}
+
+.fe-dev-contato .card-content .description {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.fe-background-rodape {
+    background-color: #868e96;
+    background-image: url("https://img.elo7.com.br/product/zoom/FBCE34/adesivo-paisagem-praia-decorando-com-adesivos.jpg");
+}
+
+.fe-social-icons {
+    margin-bottom: 5px;
+}
+
+.fe-social-icons a {
+    display: inline-block;
+    height: 2.3rem;
+    width: 2.3rem;
+    color: #868e96;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    margin-right: 1rem;
+    transition: all .5s ease-in-out;
+}
+
+[title="LinkedIn"]:hover {
+    color: #0077b5;
+}
+
+[title="GitHub"]:hover {
+    color: #24292e;
+}
+
+[title="Facebook"]:hover {
+    color: #4267b2;
+}
+
+[title="Instagram"]:hover {
+    color: #6e423a;
+}
+
+[title="YouTube"]:hover {
+    color: #ff0000;
+}
+
+[title="E-mail"]:hover {
+    color: #006dc3;
+}
+
+[title="Twitter"]:hover {
+    color: #55acee;
+}
+
+@media only screen and (max-width: 767px) {
+    .fe-social-icons {
+        text-align: center;
+    }
+    .fe-social-icons a {
+        margin-right: .06rem;
+    }
 }
 
 @keyframes zoom-out {

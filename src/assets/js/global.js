@@ -23,4 +23,34 @@ $().ready(function() {
         $('[data-toggle="tooltip"]').tooltip();
         $('[data-toggle="tooltip"]').tooltip("hide");
     });
+
+    // validação
+    $("#idForm").validate();
+
+    // para os selects personalizados
+    if ($(".selectpicker").length != 0) {
+        $(".selectpicker").selectpicker();
+    }
+
+    // notificação
+    $("#idForm").submit(function() {
+        if ($(this).valid()) {
+            $(".fe-btn-carregando").removeClass("fe-hide");
+            showNotification("top", "center", "ti-email", "Notificação");
+        }
+    });
 });
+
+// para noficicação
+function showNotification(posicao, lado, icone, mensagem) {
+    $.notify({
+        icon: icone,
+        message: mensagem
+    }, {
+        type: type[2],
+        placement: {
+            from: posicao,
+            align: lado
+        }
+    });
+}

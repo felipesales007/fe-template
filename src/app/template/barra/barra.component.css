@@ -1,0 +1,15 @@
+.fe-foto-barra {
+    display: none;
+    width: 50px;
+    height: 50px;
+    margin: -15px 15px 0 0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 992px) {
+    .fe-foto-barra {
+        display: block;
+    }
+}
