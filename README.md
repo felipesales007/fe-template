@@ -9,3 +9,5 @@ CORREÇÕES A SE FAZER:
 4 - corrigir o rodapé
 
 5 - informação da pagina atual na barra
+
+6 - ao clicar em um link em dashboard deve add in no collapse se for o caso

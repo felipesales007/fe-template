@@ -1,641 +1,99 @@
-<!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-  <div class="card">
-      <div class="card-content">
-          <div class="row">
-              <div class="col-xs-7">
-                  <div class="numbers pull-left">
-                      $34,657
-                  </div>
-              </div>
-              <div class="col-xs-5">
-                  <div class="pull-right">
-                      <span class="label label-success">
-                          +18%
-                      </span>
-                  </div>
-              </div>
-          </div>
-          <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-          </h6>
-          <div id="chartTotalEarningsDoc"></div>
-      </div>
-      <div class="card-footer">
-          <hr>
-          <div class="footer-title">Financial Statistics</div>
-          <div class="pull-right">
-              <button class="btn btn-info btn-fill btn-icon btn-sm">
-                  <i class="ti-plus"></i>
-              </button>
-          </div>
-      </div>
-  </div>
+<!--card total-->
+<div class="col-lg-3 col-sm-6">
+    <div class="card">
+        <div class="card-content">
+            <div class="row">
+                <div class="col-xs-7">
+                    <div class="numbers pull-left">2758</div>
+                </div>
+            </div>
+            <h6 class="big-title">Total de <span class="text-success">campanhas</span> enviadas
+            </h6>
+            <div id="chartTotalEarningsDoc"></div>
+        </div>
+        <div class="card-footer">
+            <hr>
+            <div class="footer-title">Enviar nova campanha</div>
+            <div class="pull-right">
+                <button [routerLink]="['/campanha/nova']" class="btn btn-success btn-fill btn-icon btn-sm">
+                    <i class="ti-plus"></i>
+                </button>
+            </div>
+        </div>
+    </div>
 </div>
 
-<!-- Markup -->
-<div class="col-lg-4 col-sm-6">
+<!--card criadas-->
+<div class="col-lg-3 col-sm-6">
     <div class="card">
         <div class="card-content">
             <div class="row">
                 <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
+                    <div class="numbers pull-left">13</div>
                 </div>
             </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
+            <h6 class="big-title">Total de <span class="text-info">campanhas</span> criadas
             </h6>
             <div id="chartTotalEarningsDoc"></div>
         </div>
         <div class="card-footer">
             <hr>
-            <div class="footer-title">Financial Statistics</div>
+            <div class="footer-title">Criar nova campanha</div>
             <div class="pull-right">
                 <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
+                    <i class="ti-check"></i>
                 </button>
             </div>
         </div>
     </div>
-  </div>
-
-  <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
-  <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
-  <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
-  <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
-  <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
-  <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-  <div class="card">
-      <div class="card-content">
-          <div class="row">
-              <div class="col-xs-7">
-                  <div class="numbers pull-left">
-                      $34,657
-                  </div>
-              </div>
-              <div class="col-xs-5">
-                  <div class="pull-right">
-                      <span class="label label-success">
-                          +18%
-                      </span>
-                  </div>
-              </div>
-          </div>
-          <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-          </h6>
-          <div id="chartTotalEarningsDoc"></div>
-      </div>
-      <div class="card-footer">
-          <hr>
-          <div class="footer-title">Financial Statistics</div>
-          <div class="pull-right">
-              <button class="btn btn-info btn-fill btn-icon btn-sm">
-                  <i class="ti-plus"></i>
-              </button>
-          </div>
-      </div>
-  </div>
 </div>
 
-
-  <!-- Markup -->
-  <div class="col-lg-4 col-sm-6">
+<!--card desativo-->
+<div class="col-lg-3 col-sm-6">
     <div class="card">
         <div class="card-content">
             <div class="row">
                 <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
+                    <div class="numbers pull-left">6</div>
                 </div>
             </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
+            <h6 class="big-title">Total de <span class="text-muted">campanhas</span> desativadas
             </h6>
             <div id="chartTotalEarningsDoc"></div>
         </div>
         <div class="card-footer">
             <hr>
-            <div class="footer-title">Financial Statistics</div>
+            <div class="footer-title">Desativar uma campanha</div>
             <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
+                <button class="btn btn-primary btn-fill btn-icon btn-sm">
+                    <i class="ti-na"></i>
                 </button>
             </div>
         </div>
     </div>
-  </div>
+</div>
 
-    <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
+<!--card pendente-->
+<div class="col-lg-3 col-sm-6">
     <div class="card">
         <div class="card-content">
             <div class="row">
                 <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
+                    <div class="numbers pull-left">2</div>
                 </div>
             </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
+            <h6 class="big-title">Total de <span class="text-danger">campanhas</span> pendentes
             </h6>
             <div id="chartTotalEarningsDoc"></div>
         </div>
         <div class="card-footer">
             <hr>
-            <div class="footer-title">Financial Statistics</div>
+            <div class="footer-title">Visualizar campanhas</div>
             <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
+                <button class="btn btn-danger btn-fill btn-icon btn-sm">
+                    <i class="ti-search"></i>
                 </button>
             </div>
         </div>
     </div>
-  </div>
-
-    <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
-
-    <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
-
-    <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
-
-    <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
-
-    <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
-
-    <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
-
-    <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
-
-    <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
-
-    <!-- Markup -->
-<div class="col-lg-4 col-sm-6">
-    <div class="card">
-        <div class="card-content">
-            <div class="row">
-                <div class="col-xs-7">
-                    <div class="numbers pull-left">
-                        $34,657
-                    </div>
-                </div>
-                <div class="col-xs-5">
-                    <div class="pull-right">
-                        <span class="label label-success">
-                            +18%
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <h6 class="big-title">total earnings <span class="text-muted">in last</span> ten <span class="text-muted">quarters</span>
-            </h6>
-            <div id="chartTotalEarningsDoc"></div>
-        </div>
-        <div class="card-footer">
-            <hr>
-            <div class="footer-title">Financial Statistics</div>
-            <div class="pull-right">
-                <button class="btn btn-info btn-fill btn-icon btn-sm">
-                    <i class="ti-plus"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-  </div>
+</div>
