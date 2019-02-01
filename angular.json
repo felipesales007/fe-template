@@ -25,7 +25,6 @@
             "styles": [
               "src/assets/css/bootstrap.min.css",
               "src/assets/css/paper-dashboard.css",
-              "src/assets/css/global.css",
               "src/assets/css/fontawesome.css",
               "src/assets/css/themify-icons.css",
               "src/assets/css/demo.css",

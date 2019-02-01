@@ -3,3 +3,11 @@
     margin-left: 0;
     margin-right: 0;
 }
+
+@media only screen and (min-width: 992px) {
+    .fe-rodape {
+        position: relative;
+        visibility: hidden;
+        padding-top: 49.29%;
+    }
+}

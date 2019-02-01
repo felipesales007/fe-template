@@ -6598,7 +6598,7 @@ fieldset[disabled] .navbar .navbar-nav>li>a.btn.active {
 
 .btn.btn-simple .caret,
 .navbar .navbar-nav>li>a.btn.btn-simple .caret {
-    border-top-color: #FFFFFF;
+    border-top-color: #555 !important;
 }
 
 .btn .caret,
