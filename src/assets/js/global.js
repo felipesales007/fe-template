@@ -39,6 +39,53 @@ $().ready(function() {
             showNotification("top", "center", "ti-email", "Notificação");
         }
     });
+
+
+    //em teste
+
+    $("*").submit(function() {
+        if ($(".selectpicker").hasClass('error')) {
+            $(".bootstrap-select").addClass("selectpicker-error");
+        } else {
+            $(".bootstrap-select").removeClass("selectpicker-error");
+        }
+    });
+
+
+    $('.dropdown-menu li').on('click',function() {
+       
+    });
+
+
+
+    /*
+    $("*").submit(function() {
+        if ($(".selectpicker").hasClass('error')) {
+            $(".bootstrap-select").addClass("selectpicker-error");
+        } else {
+            $(".bootstrap-select").removeClass("selectpicker-error");
+        }
+    });
+
+    
+    $('.bootstrap-select').on('click',function() {
+        $(this).removeClass('selectpicker-error');
+    });
+
+
+    
+    $(".dropdown-menu li").click(function() {
+        $(this).$(".bootstrap-select").removeClass('selectpicker-error');
+    });
+
+    $("*").submit(function() {
+        if($(".selectpicker").hasClass("error") && $(".bootstrap-select").querySelector("span")) {
+            $(".bootstrap-select").addClass("selectpicker-error");
+        } else {
+            $(".bootstrap-select").removeClass("selectpicker-error");
+        }
+    });
+    */
 });
 
 // para noficicação

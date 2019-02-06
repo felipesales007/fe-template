@@ -156,7 +156,17 @@ input[type=number] {
 
 .error:not(.form-control) {
     position: absolute;
+    display: block;
     margin-left: 1px;
     color: #EB5E28;
     font-size: 11px;
+}
+
+.bootstrap-select .error:not(.form-control) {
+    margin-top: 40px;
+}
+
+.selectpicker-error:not(.error) {
+    background-color: #FFC0A4;
+    border: 1px solid #EB5E28 !important;
 }
