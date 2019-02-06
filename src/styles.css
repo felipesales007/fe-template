@@ -18,6 +18,10 @@ input[type=number] {
     padding-top: 10px;
 }
 
+.bootstrap-select button {
+    border-radius: 0;
+}
+
 [title="LinkedIn"]:hover {
     color: #0077b5;
 }
@@ -166,7 +170,7 @@ input[type=number] {
     margin-top: 40px;
 }
 
-.selectpicker-error:not(.error) {
+.selectpicker-error {
     background-color: #FFC0A4;
     border: 1px solid #EB5E28 !important;
 }
