@@ -10,6 +10,17 @@ input[type=number] {
     appearance: textfield;
 }
 
+select {
+    color: #cfcfca !important;
+}
+option {
+    color: #66615b !important;
+}
+  
+select.ng-dirty {
+    color: #66615b !important;
+}
+
 .btn {
     font-weight: normal;
 }
@@ -20,6 +31,18 @@ input[type=number] {
 
 .bootstrap-select button {
     border-radius: 0;
+}
+
+.bootstrap-select .error:not(.form-control) {
+    margin-top: 40px;
+}
+
+.error:not(.form-control) {
+    position: absolute;
+    display: block;
+    margin-left: 1px;
+    color: #EB5E28;
+    font-size: 11px;
 }
 
 [title="LinkedIn"]:hover {
@@ -156,21 +179,4 @@ input[type=number] {
     .fe-social-icons a {
         margin-right: .06rem;
     }
-}
-
-.error:not(.form-control) {
-    position: absolute;
-    display: block;
-    margin-left: 1px;
-    color: #EB5E28;
-    font-size: 11px;
-}
-
-.bootstrap-select .error:not(.form-control) {
-    margin-top: 40px;
-}
-
-.selectpicker-error {
-    background-color: #FFC0A4;
-    border: 1px solid #EB5E28 !important;
 }

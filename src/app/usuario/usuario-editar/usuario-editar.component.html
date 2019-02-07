@@ -31,7 +31,8 @@
           <div class="col-md-3">
             <div class="form-group">
               <label for="usuario-sexo">Sexo</label>
-              <select required="required" id="usuario-sexo" name="usuario-sexo" class="form-control border-input selectpicker" data-style="btn btn-simple btn-block" title="Selecione o sexo" data-size="7">
+              <select required="required" id="usuario-sexo" name="usuario-sexo" class="form-control border-input" [(ngModel)]="sexo">
+                <option [attr.selected]="sexo ? true : null" disabled hidden>Selecione o sexo</option>
                 <option value="Masculino">Masculino</option>
                 <option value="Feminino">Feminino</option>
                 <option value="Outro">Outro</option>
@@ -91,7 +92,8 @@
           <div class="col-md-2">
             <div class="form-group">
               <label for="usuario-estado">Estado</label>
-              <select required="required" id="usuario-estado" name="usuario-estado" class="form-control border-input selectpicker" data-style="btn btn-simple btn-block" title="Selecione o estado" data-size="7">
+              <select required="required" id="usuario-estado" name="usuario-estado" class="form-control border-input" [(ngModel)]="estado">
+                <option [attr.selected]="estado ? true : null" disabled hidden>Selecione o estado</option>
                 <option value="AC">AC</option>
                 <option value="AL">AL</option>
                 <option value="AM">AM</option>
@@ -131,7 +133,7 @@
           </div>
         </div>
         <div class="text-center fe-button-border-top">
-          <button type="submit" class="btn btn-info btn-fill btn-wd">Atualizar Usuário</button>
+          <button type="submit" class="btn btn-info btn-fill btn-wd" (click)="validarSelects(sexo)">Atualizar Usuário</button>
         </div>
         <div class="clearfix"></div>
       </form>

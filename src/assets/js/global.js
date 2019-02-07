@@ -40,9 +40,8 @@ $().ready(function() {
         }
     });
 
-
     //em teste
-
+   /*
     $("*").submit(function() {
         if ($(".selectpicker").hasClass('error')) {
             $(".bootstrap-select").addClass("selectpicker-error");
@@ -58,7 +57,7 @@ $().ready(function() {
 
 
 
-    /*
+ 
     $("*").submit(function() {
         if ($(".selectpicker").hasClass('error')) {
             $(".bootstrap-select").addClass("selectpicker-error");

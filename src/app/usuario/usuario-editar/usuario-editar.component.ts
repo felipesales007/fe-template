@@ -9,15 +9,27 @@ declare var $: any;
 })
 export class UsuarioEditarComponent implements OnInit {
 
+  sexo: any = "Selecione o sexo";
+  estado: any = "Selecione o estado";
+  
   constructor() { }
 
   ngOnInit() {
     // validação
     $("#fe-usuario-editar-form").validate();
+  }
 
-    // para os selects personalizados
-    if ($(".selectpicker").length != 0) {
-      $(".selectpicker").selectpicker();
+  validarSelects(sexo: any, estado: any) {
+    // validação em select
+    if (sexo == "Selecione o sexo") {
+      $("#usuario-sexo").addClass("error");
+    } else {
+      $("#usuario-sexo").removeClass("error");
+    }
+    if (estado == "Selecione o estado") {
+      $("#usuario-estado").addClass("error");
+    } else {
+      $("#usuario-estado").removeClass("error");
     }
   }
 
