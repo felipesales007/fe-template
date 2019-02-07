@@ -45,6 +45,12 @@ select.ng-dirty {
     font-size: 11px;
 }
 
+.form-group span,
+.category span {
+    color: #EB5E28;
+    font-weight: bold;
+}
+
 [title="LinkedIn"]:hover {
     color: #0077b5;
 }

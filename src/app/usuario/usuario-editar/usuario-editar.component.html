@@ -9,29 +9,29 @@
           <!--empresa-->
           <div class="col-md-12">
             <div class="form-group">
-              <label>Empresa</label>
-              <input type="text" class="form-control border-input" disabled="" placeholder="ex.: Grape's Group">
+              <label>Empresa <span>*</span></label>
+              <input type="text" class="form-control" disabled="" placeholder="ex.: Grape's Group">
             </div>
           </div>
           <!--nome-->
           <div class="col-md-7">
             <div class="form-group">
-              <label for="usuario-nome">Nome</label>
-              <input required="required" type="text" id="usuario-nome" name="usuario-nome" class="form-control border-input" placeholder="ex.: Felipe Sales">
+              <label for="usuario-nome">Nome <span>*</span></label>
+              <input required type="text" id="usuario-nome" name="usuario-nome" class="form-control" placeholder="ex.: Felipe Sales">
             </div>
           </div>
           <!--cpf-->
           <div class="col-md-5">
             <div class="form-group">
-              <label for="usuario-cpf">CPF</label>
-              <input required="required" type="number" id="usuario-cpf" name="usuario-cpf" class="form-control border-input" placeholder="ex.: 000.000.000-00">
+              <label for="usuario-cpf">CPF <span>*</span></label>
+              <input required type="number" id="usuario-cpf" name="usuario-cpf" class="form-control" placeholder="ex.: 000.000.000-00">
             </div>
           </div>
           <!--sexo-->
           <div class="col-md-3">
             <div class="form-group">
-              <label for="usuario-sexo">Sexo</label>
-              <select required="required" id="usuario-sexo" name="usuario-sexo" class="form-control border-input" [(ngModel)]="sexo">
+              <label for="usuario-sexo">Sexo <span>*</span></label>
+              <select required id="usuario-sexo" name="usuario-sexo" class="form-control" [(ngModel)]="sexo">
                 <option [attr.selected]="sexo ? true : null" disabled hidden>Selecione o sexo</option>
                 <option value="Masculino">Masculino</option>
                 <option value="Feminino">Feminino</option>
@@ -42,57 +42,57 @@
           <!--contato-->
           <div class="col-md-3">
             <div class="form-group">
-              <label for="usuario-contato">Contato</label>
-              <input required="required" type="number" id="usuario-contato" name="usuario-contato" class="form-control border-input" placeholder="ex.: (00) 00000-0000">
+              <label for="usuario-contato">Contato <span>*</span></label>
+              <input required type="number" id="usuario-contato" name="usuario-contato" class="form-control" placeholder="ex.: (00) 00000-0000">
             </div>
           </div>
           <!--e-mail-->
           <div class="col-md-6">
             <div class="form-group">
-              <label for="usuario-email">E-mail</label>
-              <input required="required" type="email" id="usuario-email" name="usuario-email" class="form-control border-input" placeholder="ex.: email@dominio.com">
+              <label for="usuario-email">E-mail <span>*</span></label>
+              <input required type="email" id="usuario-email" name="usuario-email" class="form-control" placeholder="ex.: email@dominio.com">
             </div>
           </div>
           <!--endereço-->
           <div class="col-md-6">
             <div class="form-group">
-              <label for="usuario-endereco">Endereço</label>
-              <input required="required" type="text" id="usuario-endereco" name="usuario-endereco" class="form-control border-input" placeholder="ex.: Varandas da Serra">
+              <label for="usuario-endereco">Endereço <span>*</span></label>
+              <input required type="text" id="usuario-endereco" name="usuario-endereco" class="form-control" placeholder="ex.: Varandas da Serra">
             </div>
           </div>
           <!--número-->
           <div class="col-md-2">
             <div class="form-group">
-              <label for="usuario-endereco-n">nº</label>
-              <input required="required" type="number" id="usuario-endereco-n" name="usuario-endereco-n" class="form-control border-input" placeholder="ex.: 37">
+              <label for="usuario-endereco-n">nº <span>*</span></label>
+              <input required type="number" id="usuario-endereco-n" name="usuario-endereco-n" class="form-control" placeholder="ex.: 37">
             </div>
           </div>
           <!--complemento-->
           <div class="col-md-4">
             <div class="form-group">
-              <label for="usuario-complemento">Complemento</label>
-              <input required="required" type="text" id="usuario-complemento" name="usuario-complemento" class="form-control border-input" placeholder="ex.: Apartamento 101">
+              <label for="usuario-complemento">Complemento <span>*</span></label>
+              <input required type="text" id="usuario-complemento" name="usuario-complemento" class="form-control" placeholder="ex.: Apartamento 101">
             </div>
           </div>
           <!--bairro-->
           <div class="col-md-4">
             <div class="form-group">
-              <label for="usuario-bairro">Bairro</label>
-              <input required="required" type="text" id="usuario-bairro" name="usuario-bairro" class="form-control border-input" placeholder="ex.: Centro">
+              <label for="usuario-bairro">Bairro <span>*</span></label>
+              <input required type="text" id="usuario-bairro" name="usuario-bairro" class="form-control" placeholder="ex.: Centro">
             </div>
           </div>
           <!--cidade-->
           <div class="col-md-4">
             <div class="form-group">
-              <label for="usuario-cidade">Cidade</label>
-              <input required="required" type="text" id="usuario-cidade" name="usuario-cidade" class="form-control border-input" placeholder="ex.: Salvador">
+              <label for="usuario-cidade">Cidade <span>*</span></label>
+              <input required type="text" id="usuario-cidade" name="usuario-cidade" class="form-control" placeholder="ex.: Salvador">
             </div>
           </div>
           <!--estado-->
           <div class="col-md-2">
             <div class="form-group">
-              <label for="usuario-estado">Estado</label>
-              <select required="required" id="usuario-estado" name="usuario-estado" class="form-control border-input" [(ngModel)]="estado">
+              <label for="usuario-estado">Estado <span>*</span></label>
+              <select required id="usuario-estado" name="usuario-estado" class="form-control" [(ngModel)]="estado">
                 <option [attr.selected]="estado ? true : null" disabled hidden>Selecione o estado</option>
                 <option value="AC">AC</option>
                 <option value="AL">AL</option>
@@ -127,13 +127,14 @@
           <!--cep-->
           <div class="col-md-2">
             <div class="form-group">
-              <label for="usuario-cep">CEP</label>
-              <input required="required" type="number" id="usuario-cep" name="usuario-cep" class="form-control border-input" placeholder="ex.: 00.000-000">
+              <label for="usuario-cep">CEP <span>*</span></label>
+              <input required type="number" id="usuario-cep" name="usuario-cep" class="form-control" placeholder="ex.: 00.000-000">
             </div>
           </div>
         </div>
+        <div class="category"><span>*</span> Campos obrigatórios</div>
         <div class="text-center fe-button-border-top">
-          <button type="submit" class="btn btn-info btn-fill btn-wd" (click)="validarSelects(sexo)">Atualizar Usuário</button>
+          <button type="submit" class="btn btn-info btn-fill btn-wd" (click)="validarSelects(sexo)">Editar perfil</button>
         </div>
         <div class="clearfix"></div>
       </form>

@@ -7898,11 +7898,15 @@ a.dropdown-toggle[aria-expanded="true"] .caret {
     border-color: #7AC29A;
 }
 
-.has-error .form-control,
+.has-error  .form-control,
 .form-control.error {
     background-color: #FFC0A4;
-    color: #EB5E28;
+    color: #EB5E28 !important;
     border-color: #EB5E28;
+}
+
+.form-control.error::-webkit-input-placeholder {
+    color: #EB5E28;
 }
 
 .has-error .form-control:focus,

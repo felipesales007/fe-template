@@ -11,3 +11,7 @@ CORREÇÕES A SE FAZER:
 6 - ao clicar em um link em dashboard deve add in no collapse se for o caso
 
 7 - aplicar mascara de inputs numericos
+
+10 - rodapé em mobile, com cards pequenos, verificar
+
+11- limitar campos (quantidade de caracteres)
