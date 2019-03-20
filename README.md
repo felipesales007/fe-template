@@ -19,7 +19,7 @@ Template para se utilizar em sistemas.
 | <img src="https://uploaddeimagens.com.br/images/001/975/815/original/Captura_de_Tela_2019-03-20_às_20.12.41.png" width="420" height="250" /> | <img src="https://uploaddeimagens.com.br/images/001/975/818/original/Captura_de_Tela_2019-03-20_às_20.14.15.png" width="420" height="250" />
 
 | MOBILE |
-| --- | --- |
+| --- |
 | <img src="https://uploaddeimagens.com.br/images/001/975/817/original/Captura_de_Tela_2019-03-20_às_20.13.37.png" width="420" height="600" />
 
 ## Suporte nos navegadores
