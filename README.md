@@ -20,7 +20,7 @@ Template para se utilizar em sistemas.
 
 | MOBILE |
 | --- |
-| <img src="https://uploaddeimagens.com.br/images/001/975/817/original/Captura_de_Tela_2019-03-20_às_20.13.37.png" width="400" height="600" />
+| <img src="https://uploaddeimagens.com.br/images/001/975/817/original/Captura_de_Tela_2019-03-20_às_20.13.37.png" width="410" height="600" />
 
 ## Suporte nos navegadores
 
