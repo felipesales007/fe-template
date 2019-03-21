@@ -8,7 +8,9 @@ Template para se utilizar em sistemas.
 
 ## Versão disponível
 
-[<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="110" height="110" />](https://angular.io/)
+[<img src="https://s3.amazonaws.com/creativetim_bucket/github/angular.png" width="100" height="100" />](https://angular.io/)
+
+## Mais telas
 
 | FORMULÁRIO | VALIDAÇÃO |
 | --- | --- |
